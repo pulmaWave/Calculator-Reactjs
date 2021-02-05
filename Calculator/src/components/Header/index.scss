@@ -1,0 +1,80 @@
+.header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  max-width: 320px;
+  margin: auto;
+  height: 500px;
+  margin-top: 50px;
+
+  color: rgb(117, 114, 114);
+  background-color: #b1aaaa1c;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  -moz-box-shadow: 0 0 5px 5px rgba(194, 194, 194, 0.671);
+  -webkit-box-shadow: 0 0 5px 5px rgba(194, 194, 194, 0.671);
+  box-shadow: 0 0 5px 5px rgba(194, 194, 194, 0.671);
+  .button {
+    margin: 10px auto;
+  }
+  .header-top {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 3px 20px 3px;
+    position: absolute;
+    padding: 10px auto;
+    max-width: 320px;
+    right: 0;
+    .result {
+      right: 0;
+      float: right;
+      font-size: xx-large;
+      margin: 20px 10px 10px 20px;
+      margin-left: auto;
+      word-wrap: break-word;
+      word-break:break-all;
+    }
+    .number {
+      margin: 10px 10px 10px 20px;
+      font-size: medium;
+      text-align: right;
+      word-wrap: break-word;
+      
+    }
+  }
+  .header-body {
+    background-color: #b1aaaa1c;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    bottom: 0;
+    padding-bottom: 3px;
+    :nth-child(4n) {
+      background-color: #b1aaaa3a;
+    }
+    :nth-child(19) {
+      background-color: #b1aaaa3a;
+    }
+    :nth-child(17) {
+      background-color: #b1aaaa3a;
+    }
+    :nth-child(18) {
+      background-color: #b1aaaa3a;
+    }
+    :nth-child(23) {
+      background-color: #b1aaaa3a;
+    }
+    :nth-child(21) {
+      background-color: #b1aaaa3a;
+    }
+    :nth-child(22) {
+      background-color: #b1aaaa3a;
+    }
+    :nth-child(4) {
+      background-color: #b1aaaacb;
+    }
+  }
+}
